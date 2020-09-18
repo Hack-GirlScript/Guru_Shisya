@@ -1,0 +1,424 @@
+body{
+  overflow-x:hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*===================LANDING PAGE==============*/
+#topSlide .carousel-inner{box-shadow: -5px 0px 20px #aaaaaa; margin-bottom: 50px;}
+/*#topSlide .carousel-indicators{bottom:50px;}*/
+.landing-page{background: #c6ffec ;box-shadow: -5px 0px 20px #aaaaaa;
+  
+  position:relative;
+  /*background-size:cover;*/
+  background-size:90vw 100vh;
+  width:100%;
+  height:70vh;
+  position:relative;
+  /*clip-path: polygon(100% 0, 100% 100%, 62% 100%, 0 60%, 0 0);
+  border-bottom-right-radius:30%;*/
+}
+.landing-page.slideOne h2{font-family: 'Roboto', sans-serif; font-weight:900; font-size:60px; color:#9b9a9a; margin-bottom:0; line-height:50px;}
+.landing-page.slideOne h4{font-family: 'Roboto', sans-serif; font-weight:900; font-size:30px; color:#3eb05a; margin:0; padding:0; line-height:30px;}
+.landing-page.slideOne a:hover{text-decoration: none;}
+.landing-page.slideOne h5{font-family: 'Roboto', sans-serif; font-weight:400; font-size:25px; color:#050505; margin-top: 30px; width:70%;}
+.bnnerWpr{display: flex;}
+.bnnerLeft{width:49%; padding-left:1%;}
+.bnnerRight{width: 50%;}
+.landing-page.slideOne .image-box{padding-top:10px;}
+.landing-page.slideOne .landing-text{padding-top:50px;}
+.landing-page.slideTwo{background-size:cover!important;  background:url(img/lernSkillBnr.png)no-repeat;}
+.landing-page.slideTwo p{font-size:18px; font-weight: bold; margin-bottom: 0; width:30%;}
+
+
+
+.landing-text{
+  
+  padding-top:40px;
+  padding-left:20px;
+  /*height:90vh;*/
+}
+
+.landing-text h2{line-height:50px;  padding-top:30px; letter-spacing:5px; color:#fff; font-size:40px; font-weight:bold;}
+
+.landing-text h4{
+  padding-top:10px; padding-bottom:30px;
+  font-size:31px; color:#fff;
+}
+
+.landing-page .button{
+  margin-top:55px;
+}
+.landing-page .button a{background:#fff; border:3px solid #00aeef; color:#000; font-size:20px; padding: 3px 22px;border-radius:20px; width:160px;}
+.landing-page.slideOne .button a{border:none; color:#fff; background-color:#f04d4d; display:inline-block; width:auto;padding:13px 40px;border-radius:30px;}
+.landing-page.slideOne .button .fa{font-size:18px;}
+.learn_board_bg{background:#394257; }
+.landing-page.slideOne.learn_board_bg h4{color:#00bbff; font-weight:400; margin-top:40px; line-height: 41px; width:70%;}
+.landing-page.slideOne.learn_board_bg .button a{background-color:#00bbff;}
+.landing-page.slideOne.learn_board_bg .image-box{padding-top:25px; padding-left:25px;}
+
+/*===================programWpr==============*/
+.programWpr.container{max-width:96%;}
+.programWpr{margin-bottom: 50px;}
+.programWpr h2{font-size:40px; font-weight:700; margin-left:15px;}
+.proBox{box-shadow: -5px 0px 20px #aaaaaa; padding:30px; border-radius:30px; margin:30px 0;}
+.proBox .figure{border:1px solid #ff6115; background:#f7f7f7; text-align:center; margin:20px 0; width: 100%;}
+.headWpr{display:flex; min-height:70px;}
+.proBox h5{font-size:18px; font-weight:bold; width:75%;}
+.btmWpr ul{display:flex; list-style:none; padding:0; margin:0;}
+.btmWpr ul li{width:33%; font-size:14px;}
+.btmWpr ul li span{margin-right:5px;}
+.moreBox{border:3px dashed #707070;border-radius:30px; margin:30px 0; justify-content:center; flex-direction:column; display:flex; min-height:330px; text-align:center;}
+/*===================BUTTON==============*/
+.button a{
+    color: #fff;
+    background-color: #00aeef;
+    padding:5px 20px;
+    border-radius:18px;
+    display:block; width: 130px;
+    font-size:17px;
+}
+
+.button a:hover {
+  box-shadow:0px 0 10px #222;
+  text-decoration:none;
+}
+.carousel-indicators li{
+  background-color:#00aeff;
+  height:10px;
+  width:10px;
+  border-radius:50%;
+
+}
+
+.lrnSkillPopup .modal-content{background:#00aeef;}
+.lrnSkillPopup .modal-body{text-align: center; color:#fff; padding:30px;}
+.lrnSkillPopup .modal-body .fa{color:#fff; font-size: 10px;}
+.lrnSkillPopup .modal-body h2{margin-bottom: 20px;}
+.lrnSkillPopup p{margin-bottom:0; font-size:18px;}
+.lrnSkillPopup .close{text-shadow:none; font-size:14px; font-weight:normal;margin-top: -10px;}
+
+/*features*/
+.features
+{
+    padding: 100px 0;
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.features-img img{
+    width: 100%;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding:10px;
+    box-shadow: 0 0 18px 1px rgba (37,73,214,0.18) ;
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+
+}
+.features-img
+{
+    position: relative;
+
+}
+.rating
+{
+  padding: 3px;
+  float: right;
+  background: #fff;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+
+}
+.features .fa
+{
+   font-size: 15px;
+    color: #ff5722;
+}
+.feature-details
+{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa
+{
+    margin-right: 5px;
+}
+.features-box 
+{
+   box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+   margin-bottom: 30px;
+}
+
+/**************** happy clients starts ************/
+
+.happyclients{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+}
+
+.box{
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.box:hover{
+	background:  #16c9f6;
+}
+
+.box:hover .box a:after{
+	background: white!important;
+}
+
+.box:hover p{
+	color: white;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+   }
+
+.carousel-indicators li{
+	background-color: #16c9f6!important;
+}
+
+.box a {
+	position: relative;
+}
+
+.box a img{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.box a:after{
+	content: "\f10d";
+	font-family: FontAwesome;
+	width: 40px;
+	height: 40px;
+	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+	color: white;
+	position: absolute;
+	top: 120%;
+	left: 70%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box h1{
+	font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.box h2{
+	font-size: 13px;
+	font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+
+
+/**************** happy clients ends ************/
+
+
+
+
+
+/*=============MEDIA QUERIES===================*/
+@media(max-width:1600px){
+.landing-page{height:80vh;}
+.landing-page.slideTwo .landing-text h4{padding-bottom:30px;padding-top:10px;}
+.landing-page.slideTwo img{margin-bottom:15px;}
+}
+@media(max-width:1440px){
+.landing-page{height:65vh;}
+}
+@media(max-width:1366px){
+.landing-page{height:70vh;}
+.landing-page.slideTwo .landing-text h4{padding-bottom:10px;padding-top:0px;}
+.landing-page.slideTwo img{margin-bottom: 5px;}
+}
+@media(max-width:1280px){
+
+.landing-page.slideTwo .landing-text h2{padding-top:10px;}  
+.landing-page{height:75vh;}
+.landing-page.slideTwo .button{margin-top:35px;}
+.btmWpr ul li{font-size:13px;}
+.btmWpr ul li img{width:15px;}
+.proBox h5{font-size:17px;}
+.moreBox{min-height:300px;}
+}
+
+@media(max-width:1152px){
+.btmWpr ul li{font-size:11px;}
+.landing-page.slideOne.learn_board_bg h4{width: 81%;}
+.landing-text h2, .programWpr h2{font-size:36px;}
+.landing-page.slideTwo .landing-text h2{line-height:50px;}
+.landing-page.slideTwo p{font-size:16px; width:33%;}
+.moreBox{min-height:320px;}
+}
+
+@media(max-width:1115px){
+
+}
+@media(max-width: 1024px){
+.headWpr{display:block;}
+.landing-page.slideOne.learn_board_bg h4{width:92%;}
+.landing-page.slideOne .image-box, .landing-page.slideOne.learn_board_bg .image-box{padding-top:60px;}
+.proBox h5{width:100%;}
+.button a{display:inline-block; width:auto; font-size:15px;}
+.proBox{padding:20px; border-radius:20px;}
+.btmWpr ul li{font-size:10px;}
+.landing-page.slideOne h5{width:80%;}
+.moreBox{min-height:280px;}
+}
+
+@media(max-width: 992px){
+.btmWpr ul li img{width:13px;}
+
+}
+@media(max-width:800px){
+.btmWpr ul{display:block;}
+.landing-page{ height:70vh;}
+.landing-page.slideOne h4{font-size:28px;}
+.landing-page.slideOne.learn_board_bg h4{width: 100%;}
+.btmWpr ul li{width:100%; margin-bottom: 10px;}
+.landing-text h2, .programWpr h2{font-size:32px;}
+.landing-page.slideTwo p{width:43%;}
+.landing-page.slideOne h5{font-size:20px;}
+.headWpr{min-height: 100px;}
+.proBox .figure{height: 125px;}
+.bnnerRight .image-box{margin-top: 50px;}
+}
+
+@media(max-width:768px){
+.landing-page.slideTwo .landing-text h2{line-height: 40px;}
+/*.landing-page.slideTwo img{width:300px;}*/
+.landing-page.slideOne .image-box, .landing-page.slideOne.learn_board_bg .image-box{padding-top:40px;}
+.landing-page .button{margin-top:25px;}
+.landing-page.slideOne h2{font-size:40px;}
+.landing-page.slideOne h4{font-size:24px;}
+.landing-page.slideOne.learn_board_bg h4{margin-top:30px; line-height:35px;}
+.moreBox{min-height:350px;}
+.proBox h5{font-size:16px;}
+}
+
+@media(max-width:663px){
+#topSlide .carousel-indicators{margin-right:25%; margin-left:25%; margin-bottom:0;}
+.landing-page{height:50vh;}
+.landing-page.slideOne .landing-text{padding-top:30px;}
+.landing-page.slideOne.learn_board_bg h4{line-height:30px;}
+.landing-page.slideOne .image-box, .landing-page.slideOne.learn_board_bg .image-box{padding-top: 0px;}
+.landing-text h2, .programWpr h2{font-size:22px; line-height:35px;}
+.landing-page.slideOne h2{font-size:36px; line-height:35px; padding-top:10px;}
+.landing-page.slideOne h4{font-size:20px;}
+.landing-page.slideOne h5{font-size:18px; width: 100%; margin-top:10px;}
+.landing-page.slideOne .button a{padding:10px 30px;font-size:16px;}
+.landing-page.slideOne .button .fa{font-size:16px;}
+.landing-page.slideTwo .landing-text h2{font-size:22px; line-height:30px;}
+.landing-page.slideTwo .landing-text{padding-top:10px;}
+.landing-page.slideTwo .landing-text h4{padding-bottom:0px;}
+.landing-page.slideTwo .button{margin-top: 30px;}
+.landing-page.slideTwo p{width:35%; font-size:12px;}
+.landing-text h4{font-size: 21px; padding-bottom:10px;}
+.landing-text img{width:230px;}
+.landing-page .button{margin-top:20px;}
+.landing-page .button a{font-size:16px; width: auto;}
+.proBox .figure{height:auto;}
+.headWpr{min-height:auto;}
+.proBox h5{font-size: 16px;}
+.headWpr{display: flex;}
+.proBox h5{width:74%; margin-right:1%;}
+.btmWpr ul{display: flex;}
+.btmWpr ul li{width:33%;}
+.moreBox{min-height:180px;}
+}
+@media(max-width:600px){
+.landing-text h2{padding-top:10px;}
+
+}
+
+@media(max-width:576px){
+.proBox h5{width:72%;}
+
+}
+
+@media(max-width:458px){
+.proBox h5{width:64%;}
+.landing-page.slideTwo p{width: 45%;}
+.bnnerLeft .landing-text{padding-top:20px;}
+.landing-page.slideOne h4{font-size:17px;}
+.landing-page.slideOne h5{font-size: 14px;}
+}
+@media(max-width:414px){
+.landing-page{height:35vh;}
+.landing-text{padding-left:10px; padding-top:20px;}
+.landing-page.slideOne.learn_board_bg h4{margin-top: 20px;line-height: 20px;}
+.button a{padding:5px 12px;}
+.proBox{margin:10px 0;}
+.landing-page.slideTwo p{width:55%;}
+.landing-page.slideTwo .button{margin-top:10px;}
+.landing-page.slideOne h2{font-size: 30px; line-height: 30px;}
+.landing-page.slideOne h4{line-height: 20px;}
+.landing-page.slideOne .button a{padding:5px 20px;font-size:16px;}
+.landing-page.slideOne .button .fa{font-size:14px;}
+}
+@media(max-width:411px){
+.landing-text h2{letter-spacing:3px;}
+.landing-text img{width:210px;}
+}
+@media(max-width:375px){
+.landing-text h2{letter-spacing:2px;}
+.landing-page{height:35vh;}
+.landing-page.slideTwo .landing-text h2{line-height:25px;}
+.landing-page.slideOne .button a{font-size:14px;}
+.landing-page.slideOne h4{font-size:16px;}
+.landing-text h4{padding-top:0px; padding-bottom:5px; font-size:18px;}
+.landing-text img{width:190px;}
+.proBox h5{font-size:15px; width:56%; margin-right:10px;}
+.landing-text h2, .programWpr h2{font-size:20px;}
+}
+@media(max-width:360px){
+.proBox h5{width:54%;}
+.landing-page .button a{border:2px solid #00aeef;}
+}
+@media(max-width:320px){
+.landing-text h2{padding-top:0px;}
+.landing-page{height:45vh;}
+.landing-text h2, .programWpr h2{font-size:18px;    line-height: 30px;}
+.landing-text img{width:160px;}
+.landing-text h4{padding-bottom: 0px;}
+.landing-page .button a, .landing-page.slideOne .button a{font-size: 12px;}
+.headWpr, .btmWpr ul{display: block;}
+.proBox h5{width: 100%; margin-right: 0;}
+.btmWpr ul li{width: 100%;}
+}
